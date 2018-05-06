@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Template</title>
+    <title>Currency Converter</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
@@ -15,76 +15,45 @@
 
 <div class="allContent">
 
-    <header class="header">
+<div class="currency-converter">
 
-        <nav class="mainNav">
+    <h1 class="converter_title">Currency Converter</h1>
 
-            <ul class="mainNav__list">
+    <div class="conversion-pods">
 
-                <li class="mainNav__item">
-                    <a class="mainNav__link mainNav__link--home" href="#.html">Home</a>
-                </li>
-                <li class="mainNav__item">
-                    <a class="mainNav__link mainNav__link--about" href="#.html">About</a>
-                </li>
-                <li class="mainNav__item">
-                    <a class="mainNav__link mainNav__link--contact" href="#.html">Contact</a>
-                </li>
+        <div class="conversion_pod" data-id="0">
 
-            </ul>
+            <div class="conversion_rate"></div>
 
-        </nav>
+            <select class="conversion_dropdown">
+                <option selected value="USD">USD</option>
+                <option value="GBP">GBP</option>
+            </select>
 
-    </header>
+            <div class="conversion_value">
+                2.47
+            </div>
 
+        </div>
 
-	<div class="content">
+        <div class="conversion_pod" data-id="1">
 
-        <h1>HTML Ipsum Presents</h1>
+            <div class="conversion_rate"></div>
 
+            <select class="conversion_dropdown">
+                <option value="USD">USD</option>
+                <option selected value="GBP">GBP</option>
+            </select>
 
-        <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+            <div class="conversion_value">
+                1
+            </div>
 
-        <h2>Header Level 2</h2>
+        </div>
 
-        <ol>
-            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-            <li>Aliquam tincidunt mauris eu risus.</li>
-        </ol>
+    </div>
 
-        <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-
-        <h3>Header Level 3</h3>
-
-        <ul>
-            <li>  ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-            <li>Aliquam tincidunt mauris eu risus.</li>
-        </ul>
-
-<pre><code>
-    #header h1 a {
-    display: block;
-    width: 300px;
-    height: 80px;
-    }
-</code></pre>
-
-
-        <img src="https://placekitten.com/1280/720" alt="Kitten" title="Kitten" />
-
-	</div>
-
-<script type="text/javascript">
-
-    // Page specific JS
-
-</script>
-
-    <footer class="footer">
-
-        &copy; Max Henchman 2018
-
-    </footer>
+</div>
 
 </div>
 

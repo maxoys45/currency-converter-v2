@@ -1,8 +1,44 @@
 @@include('includes/header.html', { "pageClass" : "page__home" })
 
-	<div class="content">
+<div class="currency-converter">
 
-	</div>
+    <h1 class="converter_title">Currency Converter</h1>
+
+    <div class="conversion-pods">
+
+        <div class="conversion_pod" data-id="0">
+
+            <div class="conversion_rate"></div>
+
+            <select class="conversion_dropdown">
+                <option selected value="USD">USD</option>
+                <option value="GBP">GBP</option>
+            </select>
+
+            <div class="conversion_value">
+                2.47
+            </div>
+
+        </div>
+
+        <div class="conversion_pod" data-id="1">
+
+            <div class="conversion_rate"></div>
+
+            <select class="conversion_dropdown">
+                <option value="USD">USD</option>
+                <option selected value="GBP">GBP</option>
+            </select>
+
+            <div class="conversion_value">
+                1
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
 @@include('includes/footer.html')
 
