@@ -58,6 +58,8 @@ var tools = {
 
         this.updateConversionRate(e);
 
+        this.log(data.currencies);
+
     },
 
     updateConversionRate: function(e) {
@@ -78,11 +80,6 @@ var tools = {
 
         this.activeRate.innerHTML = activeRateString;
         this.otherRate.innerHTML = otherRateString;
-
-
-        //const rate = document.querySelectorAll('.conversion_rate');
-
-
 
     }
 
